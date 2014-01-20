@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta content="text/html; charset=UTF-8" http-equiv="content-type" /><title>Home</title></head>
+  <body class="lift:content_id=main">
+    <div id="main" class="lift:surround?with=default;at=content">
+      <head> <!-- Set the title of the page -->
+	<title>Home Page</title>
+      </head>
+
+      <h2>NTP Server</h2>
+
+      <p>
+	The current time is <span id="time">Time goes here</span>
+	<br/>
+
+	<br/>
+
+      </p>
+
+      <hr />
+	
+	<div>
+	  <form action="/show_int" onsubmit="window.location = this.action+'/'+encodeURIComponent(this['int'].value); return false">
+	    Enter number of consumers: <input id="int" name="int" value="3"/>
+	    <br />
+	    <br />
+	    <input type="submit" value="Start NTP Service"/>
+	  </form>
+	</div>
+      </p>
+    </div>
+  </body>
+</html>
+
