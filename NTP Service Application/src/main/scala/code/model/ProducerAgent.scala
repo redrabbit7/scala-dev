@@ -18,16 +18,6 @@ class ProducerAgent(nrOfConsumers: Int) extends Actor {
     var count = Int
     import system.dispatcher
     
-	//send current time every second to all live consumers
-    def sendTime = {
-      while(1==1){
-	      consumers foreach (_ ! Messages.Time(System.currentTimeMillis))
-	      Thread sleep 1000
-      }
-    }
-    
-
-
     //check each Consumer every 10 seconds for activity
     def checkConsumerActivity = {
       //Timeout timeout = new Timeout(Duration.parse("5 seconds"));
@@ -44,16 +34,11 @@ class ProducerAgent(nrOfConsumers: Int) extends Actor {
         println("Registered consumer "+identity)
 	    consumers += consumer
 	    
-	    if (consumers.size == nrOfConsumers){
-	      println("All consumers are registered...")
-	      //consumers foreach (_ ! Messages.Time(System.currentTimeMillis))
-	      
-	      system.scheduler.schedule(0 milliseconds, 1000 milliseconds, consumer, Messages.Time(System.currentTimeMillis))
-	      //checkConsumerActivity
-	    }
+	    //schedule time message to be sent to consumer
+	    system.scheduler.schedule(0 milliseconds, 1000 milliseconds, consumer, Messages.Time(System.currentTimeMillis))
+	    
 	    
     }
     
-    
-    
-  }
+
+}

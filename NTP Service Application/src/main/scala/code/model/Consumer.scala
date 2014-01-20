@@ -12,14 +12,15 @@ import akka.actor.Cancellable
     val system = akka.actor.ActorSystem("system")
     
     registerSelf
-    keepMeAlive
 
     def registerSelf = {
-	  system.scheduler.scheduleOnce(TIME_INTERVAL milliseconds, producerAgent, Messages.Register(self,ID))
+	  system.scheduler.scheduleOnce(0 milliseconds, producerAgent, Messages.Register(self,ID))
+	  
+	  keepMeAlive
 	}
     
     def keepMeAlive = {
-      system.scheduler.schedule(0 milliseconds,TIME_INTERVAL milliseconds, producerAgent, Messages.KeepAlive(ID))
+      system.scheduler.schedule(TIME_INTERVAL milliseconds,TIME_INTERVAL milliseconds, producerAgent, Messages.KeepAlive(ID))
 
     }
 
