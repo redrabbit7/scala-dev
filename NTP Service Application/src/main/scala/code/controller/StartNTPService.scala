@@ -1,3 +1,5 @@
+package code.controller
+
 import akka.actor.ActorSystem
 import akka.actor.Props
 import code.model.Consumer
@@ -5,7 +7,7 @@ import code.model.ProducerAgent
 
 object NTPService {
 
-  def main(args: Array[String]) {
+  def runService() {
     //read number of consumers from console
     println("Enter number of consumers > ");
     val numConsumers = readInt
@@ -22,6 +24,7 @@ object NTPService {
       //create actor with ID of a
       val consumer = system.actorOf(Props(new Consumer(producerAgent, MAX_MESSAGES_SENT, a)))
     }
+    
   }
 
 } 

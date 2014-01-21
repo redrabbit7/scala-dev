@@ -22,3 +22,10 @@ eclipse
 exit
 pwd
 exit
+run RunNTPService
+exit
+run RunNTPService
+exit
+container:start
+exit
+container:start
