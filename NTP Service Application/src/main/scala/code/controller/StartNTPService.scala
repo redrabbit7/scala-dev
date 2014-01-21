@@ -7,10 +7,10 @@ import code.model.ProducerAgent
 
 object NTPService {
 
-  def runService() {
+  def runService(numConsumers:Int) {
     //read number of consumers from console
-    println("Enter number of consumers > ");
-    val numConsumers = readInt
+    //println("Enter number of consumers > ");
+    //val numConsumers = readInt
 
     val system = ActorSystem("System")
     val producerAgent = system.actorOf(Props(new ProducerAgent(numConsumers)), name = "producerAgent")
