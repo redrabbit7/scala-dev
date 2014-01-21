@@ -1,4 +1,4 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(C:\Users\Sahithi\git\scala-dev\NTP Service Application\src\main\resources\logback.xml,C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\scala-2.10\classes\logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(C:\Users\Sahithi\git\scala-dev\NTP Service Application\src\main\resources\props,C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\scala-2.10\classes\props)[0m
-[0m[[0mdebug[0m] [0m	(C:\Users\Sahithi\git\scala-dev\NTP Service Application\src\main\resources\props\default.props,C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\scala-2.10\classes\props\default.props)[0m
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Sahithi\git\scala-dev\NTP Service Application\src\main\resources\logback.xml,C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\scala-2.10\classes\logback.xml)
+[debug] 	(C:\Users\Sahithi\git\scala-dev\NTP Service Application\src\main\resources\props,C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\scala-2.10\classes\props)
+[debug] 	(C:\Users\Sahithi\git\scala-dev\NTP Service Application\src\main\resources\props\default.props,C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\scala-2.10\classes\props\default.props)
