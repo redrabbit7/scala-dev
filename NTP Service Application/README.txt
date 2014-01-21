@@ -6,7 +6,7 @@ About the application
 This simple NTP service is implemented using the akka Actor-concurrency model in Scala.
 Lift MVC framework (with embedded Jetty server) was utilized in order to input the number
 of consumers through a portal.  The console output displays the activity between Consumer 
-actors and Producer actor.
+and Producer actors.
 
 
 Tools/Environment Settings
