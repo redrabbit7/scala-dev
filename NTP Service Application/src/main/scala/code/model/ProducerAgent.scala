@@ -20,9 +20,8 @@ class ProducerAgent(nrOfConsumers: Int) extends Actor {
     
     //check each Consumer every 10 seconds for activity
     def checkConsumerActivity = {
-      //Timeout timeout = new Timeout(Duration.parse("5 seconds"));
-      //Future<Object> future = Patterns.ask(actor, msg, timeout);
-      //String result = (String) Await.result(future, timeout.duration());
+      //check for keepalive message on each actor every 10 seconds
+      
     }
 
     def receive = {

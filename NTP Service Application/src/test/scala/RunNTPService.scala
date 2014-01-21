@@ -1,8 +1,10 @@
 
-package code.model
+
 
 import akka.actor.ActorSystem
 import akka.actor.Props
+import code.model.Consumer
+import code.model.ProducerAgent
 
 object NTPService extends App {
 

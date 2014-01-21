@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Sahithi/lift/lift-lift_26_sbt-ed1d426/scala_210/lift_mvc/}default-294652...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Sahithi/git/scala-dev/NTP%20Service%20Application/}default-0c9313...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: net.liftweb#ntp-service-application_2.10;0.0.3[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, container][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -1716,7 +1716,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#ntp-service-application_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#ntp-service-application_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#ntp-service-application_2.10;0.0.3->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\net.liftweb\ntp-service-application_2.10\0.0.3\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\net.liftweb\ntp-service-application_2.10\0.0.3\resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-webkit_2.10;2.6-M2!lift-webkit_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-mapper_2.10;2.6-M2!lift-mapper_2.10.jar[0m
@@ -1759,19 +1759,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-scalaz-concurrent_2.10;7.0.0!specs2-scalaz-concurrent_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3864ms :: artifacts dl 97ms[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 compile produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 runtime produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 test produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 provided produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 optional produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 compile-internal produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 runtime-internal produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 test-internal produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 plugin produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 sources produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 docs produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 pom produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 container produced in C:\Users\Sahithi\lift\lift-lift_26_sbt-ed1d426\scala_210\lift_mvc\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-container.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3864ms resolve - 97ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1206ms :: artifacts dl 78ms[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 compile produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 runtime produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 test produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 provided produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 optional produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 compile-internal produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 runtime-internal produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 test-internal produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 plugin produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 sources produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 docs produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 pom produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for net.liftweb#ntp-service-application_2.10;0.0.3 container produced in C:\Users\Sahithi\git\scala-dev\NTP Service Application\target\resolution-cache\reports\net.liftweb-ntp-service-application_2.10-container.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1206ms resolve - 78ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
