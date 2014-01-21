@@ -21,9 +21,9 @@ Please download the code from github repository: https://github.com/redrabbit7/s
 Additionally, if you need to install sbt (Simple Build Tool), please obtain the latest
 version from http://www.scala-sbt.org/release/docs/Getting-Started/Setup
 
-To run the application, open a Unix console (or Windows commandline prompt)
-change to the 'NTP Service Directory' folder and enter the following commands:
-
+To run the application, open a Unix console (or Windows commandline prompt),
+change to the 'NTP Service Application' directory where the built.sbt file
+is located, and enter the following commands:
 > sbt
 > container:start
 
