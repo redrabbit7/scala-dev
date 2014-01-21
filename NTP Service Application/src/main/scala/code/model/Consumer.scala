@@ -22,9 +22,11 @@ import scala.concurrent.duration._
     def keepMeAlive = {
       
       for (a <- 1 to maxMessagesSent){
-        system.scheduler.scheduleOnce(TIME_INTERVAL * a milliseconds , producerAgent, Messages.KeepAlive(ID,keepAliveCounter))
+        system.scheduler.scheduleOnce(TIME_INTERVAL * a milliseconds , producerAgent, Messages.KeepAlive(ID))
       }
-      
+      system.scheduler.scheduleOnce(TIME_INTERVAL * maxMessagesSent milliseconds){
+        context.stop(self)
+      }
     }
 
     def receive = {
