@@ -25,7 +25,7 @@ class ProducerAgent(nrOfConsumers: Int) extends Actor {
     }
 
     def receive = {
-      case Messages.KeepAlive(identity) =>
+      case Messages.KeepAlive(identity,keepAliveCounter) =>
         println("Keep alive message received from Consumer "+identity)
         
       case Messages.Register(consumer,identity) =>

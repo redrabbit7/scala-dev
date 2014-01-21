@@ -4,12 +4,12 @@ package code.model
 import akka.actor.Actor
 import akka.actor.ActorRef
 import scala.concurrent.duration._
-import akka.actor.Cancellable
 
   class Consumer(producerAgent: ActorRef, maxMessagesSent: Int, ID: Int) extends Actor {
     val TIME_INTERVAL = 5000
     import system.dispatcher
     val system = akka.actor.ActorSystem("system")
+    val keepAliveCounter : Int = 0
     
     registerSelf
 
@@ -21,9 +21,10 @@ import akka.actor.Cancellable
     
     def keepMeAlive = {
       
-      system.scheduler.schedule(TIME_INTERVAL milliseconds,TIME_INTERVAL milliseconds, producerAgent, Messages.KeepAlive(ID))
+      for (a <- 1 to maxMessagesSent){
+        system.scheduler.scheduleOnce(TIME_INTERVAL * a milliseconds , producerAgent, Messages.KeepAlive(ID,keepAliveCounter))
+      }
       
-
     }
 
     def receive = {

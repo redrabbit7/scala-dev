@@ -11,3 +11,11 @@ eclipse
 container:start
 exit
 eclipse
+run RunNTPService.class
+run RunWebApp.class
+exit
+eclipse
+exit
+eclipse
+exit
+eclipse

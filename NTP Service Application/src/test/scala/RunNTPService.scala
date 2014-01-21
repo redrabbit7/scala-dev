@@ -1,6 +1,3 @@
-
-
-
 import akka.actor.ActorSystem
 import akka.actor.Props
 import code.model.Consumer
