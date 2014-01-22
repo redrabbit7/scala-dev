@@ -32,3 +32,9 @@ container:start
 container:stop
 exit
 container:start
+exit
+container:start
+ls
+exit
+container:start
+exit

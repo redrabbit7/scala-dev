@@ -8,7 +8,7 @@ import scala.concurrent.duration._
   class Consumer(producerAgent: ActorRef, maxMessagesSent: Int, ID: Int) extends Actor {
     val TIME_INTERVAL = 5000
     import system.dispatcher
-    val system = akka.actor.ActorSystem("system")
+    val system = context.system
     val keepAliveCounter : Int = 0
     
     registerSelf
